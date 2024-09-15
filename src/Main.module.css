@@ -1,0 +1,37 @@
+.suggestions {  
+    list-style: none;  
+    padding: 0;  
+    margin: 0;  
+    border: 1px solid #ccc;  
+    max-width: 250px;  
+    position: absolute;  
+    background-color: white;  
+    z-index: 10;  
+  }  
+  
+  .suggestions li {  
+    padding: 10px;  
+    cursor: pointer;  
+  }  
+  
+  .suggestions li:hover {  
+    background-color: #f0f0f0; /* رنگ زمینه هنگام hover */  
+  }  
+  
+  
+  
+  .input {  
+    margin-bottom: 20px; /* فاصله بین ورودی و پیشنهادات */  
+  }  
+  
+  /* برای سفارشی‌سازی input */  
+  .input input {  
+    border: 1px solid #ddd; /* حاشیه ورودی */  
+    border-radius: 5px; /* گرد کردن گوشه‌ها */  
+    transition: all 0.3s; /* انیمیشن برای تغییرات */  
+  }  
+  
+  .input input:focus {  
+    border-color: #007bff; /* رنگ حاشیه ورودی هنگام فوکوس */  
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* افکت سایه */  
+  }
